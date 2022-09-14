@@ -27,5 +27,10 @@ usando o curl;
     curl --request GET 'http://localhost/' --header 'timezone: America/Fortaleza'
 
 
+### Observabilidade
+
+Para monitorar a Saúde do serviços basta acessar a URL do Elastic, fazer o login e senha e ir em Observabilidade > APM > apidate
+
+<img src="https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltcaa68210be0c357f/618ac4f194e50d5a6380207d/screenshot-apm-deploy-with-confidence.png">
 
 
