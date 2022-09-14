@@ -6,12 +6,14 @@ API simples em python que retorna hora por timezona e aplica observabilidade com
 - Docker
 - Docker Compose
 - Python
+- Flask
+- Gunicorn
 - ElasticStack
 - API Rest Terceiro
-- 
+
 ### Guia de implantação
 
-Para execução você vai precisar do docker, docker-compose e ElasticStack qualquer versão com a extensão de APM habilitada.
+Para execução você vai precisar do [docker](https://docs.docker.com/engine/install/), [docker-compose](https://docs.docker.com/compose/install/) e [ElasticStack](https://www.elastic.co/pt/downloads/) qualquer versão com a extensão de APM habilitada.
 Seguir os seguinte passos;
 
 - Modifique o nome do arquivo `env-exemplo` para `.env`
